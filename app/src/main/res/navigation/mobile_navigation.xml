@@ -22,4 +22,10 @@
         android:name="com.example.socialdetox.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_visualdistractions"
+        android:name="com.example.socialdetox.VisualDistractor"
+        android:label="@string/visualdistractions"
+        tools:layout="@layout/fragment_visual_distractor" />
 </navigation>
